@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新疆阿布丹食品开发有限公司CSV定制化系统</title>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/papaparse.min.js"></script>
+  <script src="./js/mian.js"></script>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div id="content">
+    <h1>新疆阿布丹食品开发有限公司CSV定制化系统</h1>
+    <h3 style="background: yellow;color: red;text-align: center;">该版本为开发测试版，仅含单品制单功能，未经过全量测试，慎重使用！！！</h3>
+    <div class="uploadBox">点击上传csv文件</div>
+    <input id="fileUpload" type="file" accept=".csv">
+    <div class="btnBox">
+      <div class="btn-group" style="justify-content: flex-start;align-items: center;gap: 0;margin: 0 10px 0 0;">
+        <p>客服备注：</p>
+        <input type="text" id="csNote" class="platform-select" placeholder="平台-负责人员-日期">
+      </div>
+      <select class="platform-select" id="platformSelect">
+        <option value="ny">南粤平台</option>
+        <option value="hwgXyt">好物购（小亚通）</option>
+        <option value="axbj">爱心北京</option>
+        <option value="sx">三峡e购</option>
+        <option value="xchp">832乡村好品</option>
+        <option value="hwg">好物购</option>
+        <option value="yghg">粤工惠购</option>
+        <option value="zx">茶觉文化-中信</option>
+        <option value="zhht">中汇豪泰</option>
+        <option value="nlkc">南航空厨优选自营店</option>
+        <option value="zjxg">中建星购</option>
+        <option value="gug">顾宫</option>
+      </select>
+      <button id="generateCsv">&nbsp;&nbsp;&nbsp;&nbsp;一键制单&nbsp;&nbsp;&nbsp;&nbsp;</button>
+      <div class="btn-group">
+        <button class="btn" id="splitCsv">拆分快递单号</button>
+        <button class="btn" id="hwgSplit">好物购-拆单</button>
+        <button class="btn" id="hwgCreate">好物购-制单</button>
+      </div>
+    </div>
+    <div class="resultBox">
+      <div class="table-container">
+        <p>原始数据：</p>
+        <div class="scroll-wrapper">
+          <table id="beforeTable">
+            <thead>
+              <tr>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="table-container">
+        <p>处理结果：</p>
+        <div class="scroll-wrapper">
+          <table id="resultTable">
+            <thead>
+              <tr>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+
