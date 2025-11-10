@@ -742,7 +742,7 @@ $(document).ready(function () {
         }
 
         Papa.parse(file, {
-            encoding: "utf-8",
+            encoding: "gb2312",
             complete: function (results) {
                 const config = platformConfig[platform];
                 const processedData = processData(results.data, config);
@@ -905,7 +905,7 @@ $(document).ready(function () {
     $("#hwgSplit").click(function (e) {
         var file = $("#fileUpload").prop("files")[0];
         Papa.parse(file, {
-            encoding: "utf-8",
+            encoding: "gb2312",
             complete: function (results) {
                 let data = clipHwg(results.data);
                 downloadTabCsv(data);
@@ -918,7 +918,7 @@ $(document).ready(function () {
     $("#hwgCreate").click(function (e) {
         var file = $("#fileUpload").prop("files")[0];
         Papa.parse(file, {
-            encoding: "utf-8",
+            encoding: "gb2312",
             complete: function (results) {
                 let newTable = creatTab(results.data, "hwg");
                 let data = creatCsvTab(newTable);
@@ -1014,7 +1014,7 @@ $(document).ready(function () {
     $("#splitCsv").click(function (e) {
         var file = $("#fileUpload").prop("files")[0];
         Papa.parse(file, {
-            encoding: "utf-8",
+            encoding: "gb2312",
             complete: function (results) {
                 let data = results.data;
                 console.log(data)
