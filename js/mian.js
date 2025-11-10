@@ -174,6 +174,7 @@ $(document).ready(function () {
             name: "好物购（小亚通）",
             columnMap: {
                 "Import ID": 0, // 订单编号
+                "Order Number": 0,
                 "Recipient": 4, // 收货人
                 "Phone": 5, // 电话
                 "Shipping Address": 3, // 地址
@@ -231,6 +232,7 @@ $(document).ready(function () {
             name: "爱心北京",
             columnMap: {
                 "Import ID": 0, // 订单编号
+                "Order Number": 0,
                 "Recipient": 12, // 收货人
                 "Phone": 13, // 电话
                 "Shipping Address": 17, // 地址
@@ -296,6 +298,7 @@ $(document).ready(function () {
             name: "三峡",
             columnMap: {
                 "Import ID": 6, // 订单编号
+                "Order Number": 6,
                 "Recipient": 12, // 收货人
                 "Phone": 13, // 电话
                 "Shipping Address": 14, // 地址
@@ -358,6 +361,7 @@ $(document).ready(function () {
             name: "yghg",
             columnMap: {
                 "Import ID": 0, // 订单编号
+                "Order Number": 0,
                 "Recipient": 19, // 收货人
                 "Phone": 20, // 电话
                 "Shipping Address": 15, // 地址
@@ -405,6 +409,7 @@ $(document).ready(function () {
             name: "zx",
             columnMap: {
                 "Import ID": 0, // 订单编号
+                "Order Number": 0,
                 "Recipient": 4, // 收货人
                 "Phone": 5, // 电话
                 "Shipping Address": 6, // 地址
@@ -462,6 +467,7 @@ $(document).ready(function () {
             name: "zhht",
             columnMap: {
                 "Import ID": 0, // 订单编号
+                "Order Number": 0,
                 "Recipient": 23, // 收货人
                 "Phone": 24, // 电话
                 "Shipping Address": 28, // 地址
@@ -514,6 +520,7 @@ $(document).ready(function () {
             name: "xchp",
             columnMap: {
                 "Import ID": 1, // 订单编号
+                "Order Number": 1,
                 "Recipient": 20, // 收货人
                 "Phone": 21, // 电话
                 "Shipping Address": 22, // 地址
@@ -582,6 +589,7 @@ $(document).ready(function () {
             name: "nlkc",
             columnMap: {
                 "Import ID": 1, // 订单编号
+                "Order Number": 1,
                 "Recipient": 7, // 收货人
                 "Phone": 8, // 电话
                 "Shipping Address": 9, // 地址
@@ -622,6 +630,7 @@ $(document).ready(function () {
             name: "zjxg",
             columnMap: {
                 "Import ID": 9, // 订单编号
+                "Order Number": 9,
                 "Recipient": 24, // 收货人
                 "Phone": 25, // 电话
                 "Shipping Address": 26, // 地址
@@ -668,6 +677,7 @@ $(document).ready(function () {
             name: "gug",
             columnMap: {
                 "Import ID": 0, // 订单编号
+                "Order Number": 0,
                 "Recipient": 1, // 收货人
                 "Phone": 2, // 电话
                 "Shipping Address": 3, // 地址
