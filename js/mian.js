@@ -97,6 +97,7 @@ $(document).ready(function () {
             name: "南粤平台",
             columnMap: {
                 "Import ID": 2, // 订单编号
+                "Order Number":2,
                 "Recipient": 16, // 收货人
                 "Phone": 17, // 电话
                 "Shipping Address": 21, // 地址
