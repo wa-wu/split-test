@@ -749,7 +749,7 @@ $(document).ready(function () {
                 "Phone": 9, // 电话
                 "Shipping Address": 10, // 地址
                 "Product SKU": 34, // 商家编码
-                "Quantity": 9, // 数量
+                "Quantity": 21, // 数量
             },
             fixedValues: {
                 5: "0",//应收
